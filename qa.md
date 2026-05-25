@@ -8,7 +8,7 @@
 - Gate 6 image/layout audit: PASS — all images load; no duplicate image use; no letterboxing, ugly containers, or awkward crop in final screenshots.
 - Gate 7 map/local SEO audit: PASS — bottom map/contact block directly above footer; embedded Google Maps iframe has explicit width/height, visibly loads, fills container; exactly one visible Google Maps navigation CTA in contact block.
 - Gate 8 responsive visual QA: PASS — desktop/mobile screenshots inspected by strict image QA after fixes; no blockers for typography, copy, hero order, images, testimonials, map, footer icons, or CTA duplication.
-- Gate 9 final live QA: pending deployment.
+- Gate 9 final live QA: PASS — GitHub Pages HTTP 200; live desktop/mobile screenshots passed strict QA; no broken images; live contact block has one Google Maps navigation CTA and embedded map iframe.
 
 ## Notes
 - `[blocked: full working-hours table unavailable in accessible public sources]` — Google Maps limited view and Superdoc appointment page did not expose a reliable full weekly schedule.
